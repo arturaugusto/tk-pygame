@@ -37,8 +37,10 @@ def main():
   ScreenSize = (200,100)
   Surface = pygame.display.set_mode(ScreenSize)
 
-  programIcon = pygame.image.load('/home/arturaugusto/Desktop/favicon.ico')
-  pygame.display.set_icon(programIcon)
+  
+  # icon:
+  #programIcon = pygame.image.load('favicon.ico')
+  #pygame.display.set_icon(programIcon)
 
 
   #initialise tkinter
